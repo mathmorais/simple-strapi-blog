@@ -1,0 +1,26 @@
+{
+  "name": "@blog/backend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.3.0-beta.2",
+    "@strapi/plugin-users-permissions": "4.3.0-beta.2",
+    "@strapi/plugin-i18n": "4.3.0-beta.2",
+    "better-sqlite3": "7.4.6"
+  },
+  "strapi": {
+    "uuid": "d3f6be71-d530-4a49-8e5c-e364589415dd"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

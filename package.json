@@ -1,0 +1,16 @@
+{
+  "name": "strapi-blog",
+  "private": true,
+  "workspaces": [
+    "./root/frontend",
+    "./root/backend"
+  ],
+  "scripts": {
+    "develop:backend": "yarn workspace @blog/backend strapi develop",
+    "start:backend": "yarn workspace @blog/backend strapi start",
+    "build:backend": "yarn workspace @blog/backend build",
+    "develop:frontend": "yarn workspace @blog/frontend dev",
+    "start:frontend": "yarn workspace @blog/frontend start",
+    "build:frontend": "yarn workspace @blog/frontend build"
+  }
+}
